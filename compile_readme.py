@@ -93,7 +93,8 @@ def compile_to_markdown_table(fnames, updated, comments):
     for fname in fnames:
         try:
             ops = updated[fname]
-            ops = reduce(lambda x, y: x + y, ops, '')
+            ops = reduce(lambda x, y: x + ' ' + y, ops, '')
+            ops = ops.strip()
             updated_flag = True
         except KeyError:
             ops = '?'

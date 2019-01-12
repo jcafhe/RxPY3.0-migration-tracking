@@ -35,7 +35,7 @@
 |test_find.py|?||
 |test_first.py|?||
 |test_firstordefault.py|?||
-|__test_flatmap.py__|flat_mapflat_mapi|need to remove tests with result_mapper|
+|__test_flatmap.py__|flat_map flat_mapi|need to remove tests with result_mapper|
 |__test_forin.py__|for_in||
 |test_fromcallback.py|?||
 |test_fromfuture.py|?||
@@ -57,7 +57,7 @@
 |__test_max.py__|max||
 |__test_maxby.py__|max_by||
 |test_merge.py|?||
-|test_min.py|?||
+|__test_min.py__|min||
 |__test_minby.py__|min_by||
 |test_multicast.py|?||
 |test_never.py|?||
@@ -111,7 +111,7 @@
 |test_timeout.py|?||
 |test_timeoutwithselector.py|?||
 |test_timer.py|?||
-|__test_timestamp.py__|time_intervaltimestamp||
+|__test_timestamp.py__|time_interval timestamp||
 |test_toasync.py|?||
 |test_todict.py|?||
 |test_tofuture.py|?||
