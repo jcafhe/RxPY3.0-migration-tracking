@@ -18,10 +18,10 @@
 |__test_contains.py__|contains||
 |__test_count.py__|count||
 |__test_create.py__|create||
-|_test_debounce.py_|?||
+|__test_debounce.py__|debounce throttle_with_mapper||
 |__test_defaultifempty.py__|default_if_empty||
 |test_defer.py|||
-|_test_delay.py_|?||
+|__test_delay.py__|delay||
 |__test_delaywithmapper.py__|delay_with_mapper||
 |_test_distinct.py_|?||
 |__test_distinctuntilchanged.py__|distinct_until_changed||
@@ -30,7 +30,7 @@
 |_test_elementat.py_|?||
 |__test_empty.py__|empty||
 |_test_expand.py_|?||
-|_test_filter.py_|?||
+|__test_filter.py__|filter filteri||
 |_test_finally.py_|?||
 |_test_find.py_|?||
 |_test_first.py_|?||
@@ -52,11 +52,11 @@
 |__test_last.py__|last||
 |__test_lastordefault.py__|last_or_default||
 |_test_manyselect.py_|?||
-|_test_map.py_|?||
-|__test_materialize.py__|materialize||
+|__test_map.py__|map mapi||
+|__test_materialize.py__|dematerialize materialize||
 |__test_max.py__|max||
-|__test_maxby.py__|max_by||
-|_test_merge.py_|?||
+|__test_maxby.py__|max_by|some tests are commented (mixed with JS code), these are not missing for test_minby|
+|test_merge.py|merge|merge is merge_all now ?|
 |__test_min.py__|min||
 |__test_minby.py__|min_by||
 |_test_multicast.py_|?||
@@ -72,13 +72,13 @@
 |_test_publish.py_|?||
 |_test_publishvalue.py_|?||
 |_test_range.py_|?||
-|_test_reduce.py_|?||
+|__test_reduce.py__|reduce||
 |_test_repeat.py_|?||
 |_test_replay.py_|?||
 |_test_retry.py_|?||
 |test_returnvalue.py|return_value||
 |_test_sample.py_|?||
-|_test_scan.py_|?||
+|__test_scan.py__|scan||
 |_test_sequenceequal.py_|?||
 |_test_single.py_|?||
 |_test_singleordefault.py_|?||
@@ -89,16 +89,16 @@
 |_test_skipuntilwithtime.py_|?||
 |_test_skipwhile.py_|?||
 |_test_skipwithtime.py_|?||
-|_test_slice.py_|?||
+|test_slice.py|slice|Should python slice [:] should be supported ?|
 |__test_some.py__|some||
 |test_start.py|start|redirection to test_py3_start.py|
-|_test_startwith.py_|?||
+|__test_startwith.py__|start_with|test 'test_start_with_scheduler' is commented|
 |_test_stopandwait.py_|?||
 |_test_subscribeon.py_|?||
 |__test_sum.py__|sums||
 |__test_switch.py__|switch_latest||
-|_test_take.py_|?||
-|_test_takelast.py_|?||
+|test_take.py|take||
+|test_takelast.py|take_last||
 |_test_takelastbuffer.py_|?||
 |_test_takelastwithtime.py_|?||
 |_test_takeuntil.py_|?||
