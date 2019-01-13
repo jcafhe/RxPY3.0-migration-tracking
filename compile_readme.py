@@ -108,9 +108,9 @@ def compile_to_markdown_table(fnames, updates, comments):
 
         try:
             updated = updates[fname]['updated']
-            fname_text = '`{}`'.format(fname)
+            fname_text = '{}'.format(fname)
             if updated:
-                fname_text = '`__{}__`'.format(fname)
+                fname_text = '__{}__'.format(fname)
 
         except KeyError:
             fname_text = '_{}_'.format(fname)
