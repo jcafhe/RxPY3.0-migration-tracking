@@ -41,7 +41,7 @@ def save_to_readme(lines, fpath):
 
 
 def read_comments(fpath):
-    print('read comments from {}'.format(fpath))
+
     data = {}
     lines = read_conf_file(fpath)
 
@@ -54,14 +54,10 @@ def read_comments(fpath):
         comment = line[isplit+1:].strip()
         data[test_path] = comment
 
-    for k, v in data.items():
-        print('[{}][{}]'.format(k, v))
-
     return data
 
 
 def read_updated(fpath):
-    print('read updated from {}'.format(fpath))
 
     lines = read_conf_file(fpath)
 
@@ -70,20 +66,27 @@ def read_updated(fpath):
         items = line.split(',')
         items = [item.strip() for item in items]
 
-        test_path, *operators = items
+        test_path, updated, *operators = items
         test_path = format_test_filename(test_path)
+        if updated.lower() == 'false':
+            updated = False
+        elif updated.lower() == 'true':
+            updated = True
+        else:
+            raise ValueError('unable to determine status True or False for '
+                             '{} in file {} Got "{}"'.format(
+                                     test_path, fpath, updated)
+                             )
 
         operators = sorted(operators)
 
-        data[test_path] = operators
-
-    for k, v in data.items():
-        print('[{}]{}'.format(k, v))
+        d = {'updated': updated, 'operators': operators}
+        data[test_path] = d
 
     return data
 
 
-def compile_to_markdown_table(fnames, updated, comments):
+def compile_to_markdown_table(fnames, updates, comments):
 
     lines = []
     lines.append('')
@@ -92,21 +95,28 @@ def compile_to_markdown_table(fnames, updated, comments):
 
     for fname in fnames:
         try:
-            ops = updated[fname]
+            ops = updates[fname]['operators']
             ops = reduce(lambda x, y: x + ' ' + y, ops, '')
             ops = ops.strip()
-            updated_flag = True
         except KeyError:
             ops = '?'
-            updated_flag = False
 
         try:
             com = comments[fname]
         except KeyError:
             com = ''
 
+        try:
+            updated = updates[fname]['updated']
+            fname_text = fname
+            if updated:
+                fname_text = '__{}__'.format(fname)
+
+        except KeyError:
+            fname_text = '_{}_'.format(fname)
+
         line = '|{fname}|{ops}|{com}|'.format(
-                fname=fname if not updated_flag else '__{}__'.format(fname),
+                fname=fname_text,
                 ops=ops,
                 com=com,
                 )
@@ -132,12 +142,25 @@ if __name__ == '__main__':
     if not tests_dir_needed:
         tests_path = osp.expanduser(tests_path)
 
+        updates = read_updated(osp.join(script_dir, 'updated_files.conf'))
 
-        updated = read_updated(osp.join(script_dir, 'updated_files.conf'))
+        print('\nreading updated_files\n')
+        for k, v in updates.items():
+            print('[{}][{}] {}'.format(k,v['updated'], v['operators']))
+
+        print('\nreading comments\n')
         comments = read_comments(osp.join(script_dir, 'comments.conf'))
+        for k, v in comments.items():
+            print('[{}][{}]'.format(k, v))
+
+
+        print('\nscanning {}'.format(tests_path))
         fnames = scan(tests_path)
+        print('{} test files discovered'.format(len(fnames)))
 
-        lines = compile_to_markdown_table(fnames, updated,  comments)
+        print('\ncompile document')
+        lines = compile_to_markdown_table(fnames, updates,  comments)
 
+        print('\nsaving document')
         save_to_readme(lines, osp.join(script_dir, 'README.md'))
 
