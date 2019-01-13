@@ -37,7 +37,7 @@
 |_test_firstordefault.py_|?||
 |__test_flatmap.py__|flat_map flat_mapi|need to remove tests with result_mapper|
 |__test_forin.py__|for_in||
-|_test_fromcallback.py_|?|should be rename to fromcallable ?|
+|_test_fromcallback.py_|?|should be renamed to fromcallable ?|
 |test_fromfuture.py|from_future|redirection to py3_fromfuture.py|
 |test_fromiterable.py|from_ from_list|from_ becomes from with new API|
 |__test_generate.py__|generate||
@@ -46,7 +46,7 @@
 |_test_groupjoin.py_|?||
 |_test_ifthen.py_|?||
 |_test_ignoreelements.py_|?||
-|test_interval.py|||
+|test_interval.py|interval|test 'test_interval_timespan_zero' is commented|
 |_test_isempty.py_|?||
 |_test_join.py_|?||
 |__test_last.py__|last||
