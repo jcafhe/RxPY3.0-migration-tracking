@@ -19,15 +19,15 @@ _file_: update status is unknown
 |_test_bufferwithtimeorcount.py_|?||
 |__test_case.py__|case||
 |__test_catch.py__|catch_exception||
-|_test_combinelatest.py_|?||
-|test_concat.py|||
+|test_combinelatest.py|combine_latest||
+|test_concat.py|concat||
 |_test_connectableobservable.py_|?||
 |__test_contains.py__|contains||
 |__test_count.py__|count||
 |__test_create.py__|create||
 |__test_debounce.py__|debounce throttle_with_mapper||
 |__test_defaultifempty.py__|default_if_empty||
-|test_defer.py|||
+|test_defer.py|defer||
 |__test_delay.py__|delay||
 |__test_delaywithmapper.py__|delay_with_mapper||
 |_test_distinct.py_|?||
@@ -53,7 +53,7 @@ _file_: update status is unknown
 |_test_groupjoin.py_|?||
 |_test_ifthen.py_|?||
 |_test_ignoreelements.py_|?||
-|test_interval.py|interval|test 'test_interval_timespan_zero' is commented|
+|test_interval.py|interval|tests 'test_interval_timespan_zero' and 'test_interval_timespan_negative' are commented|
 |_test_isempty.py_|?||
 |_test_join.py_|?||
 |__test_last.py__|last||
@@ -78,7 +78,7 @@ _file_: update status is unknown
 |_test_pluck.py_|?||
 |_test_publish.py_|?||
 |_test_publishvalue.py_|?||
-|_test_range.py_|?||
+|_test_range.py_|?|Missing an alias for rx.range = rx.from_range ?|
 |__test_reduce.py__|reduce||
 |_test_repeat.py_|?||
 |_test_replay.py_|?||
@@ -111,8 +111,8 @@ _file_: update status is unknown
 |_test_takeuntil.py_|?||
 |_test_takeuntilwithtime.py_|?||
 |_test_takewhile.py_|?||
-|_test_takewithtime.py_|?||
-|_test_throttlefirst.py_|?||
+|test_takewithtime.py|take_with_time||
+|test_throttlefirst.py|throttle_first||
 |__test_throw.py__|throw||
 |_test_timeinterval.py_|?||
 |_test_timeout.py_|?||
