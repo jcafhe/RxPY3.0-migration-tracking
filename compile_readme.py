@@ -32,13 +32,11 @@ def read_conf_file(fpath):
     return lines
 
 
-def save_to_readme(lines, fpath):
+def save_to_readme(text, fpath):
     print('save file to {}'.format(fpath))
-    lines = [l + '\n' for l in lines]
 
     with open(fpath, 'wt') as f:
-        f.writelines(lines)
-
+        f.write(text)
 
 def read_comments(fpath):
 
@@ -124,10 +122,14 @@ def compile_to_markdown_table(fnames, updates, comments):
         lines.append(line)
 
     lines.append('')
-    return lines
+    text = '\n'.join(lines)
+
+    return text
 
 
 if __name__ == '__main__':
+
+
 
     script_dir = osp.dirname(__file__)
     try:
@@ -159,8 +161,17 @@ if __name__ == '__main__':
         print('{} test files discovered'.format(len(fnames)))
 
         print('\ncompile document')
-        lines = compile_to_markdown_table(fnames, updates,  comments)
+        text_table = compile_to_markdown_table(fnames, updates,  comments)
+
+        with open(osp.join(script_dir, 'header.md'), 'r') as f:
+            header = f.read()
+
+
+        text_document = '{header}{table}'.format(
+                header=header,
+                table=text_table,
+                )
 
         print('\nsaving document')
-        save_to_readme(lines, osp.join(script_dir, 'README.md'))
+        save_to_readme(text_document, osp.join(script_dir, 'README.md'))
 

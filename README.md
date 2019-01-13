@@ -1,3 +1,7 @@
+# Update status for tests/test_observable/
+__file__: file have been updated
+_file_:   file is confirmed to not be updated
+file:     update status is unknown
 
 |file|operator(s)|comment|
 |:-- |:---       |:----  |
@@ -127,4 +131,3 @@
 |_test_windowwithtimeorcount.py_|?||
 |_test_withlatestfrom.py_|?||
 |__test_zip.py__|zip||
-
