@@ -2,6 +2,6 @@
 
 __file__: file have been updated
 
-_file_:   file is confirmed to not be updated
+file: file is confirmed to not be updated
 
-file:     update status is unknown
+_file_: update status is unknown
