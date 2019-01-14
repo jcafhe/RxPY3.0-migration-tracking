@@ -76,7 +76,7 @@ _file_: update status is unknown
 |_test_pausable.py_|?||
 |_test_pausablebuffered.py_|?||
 |_test_pluck.py_|?||
-|_test_publish.py_|?||
+|__test_publish.py__|publish||
 |_test_publishvalue.py_|?||
 |_test_range.py_|?|Is rx.from_range() equivalent to the old Observable.range()?|
 |__test_reduce.py__|reduce||
@@ -108,7 +108,7 @@ _file_: update status is unknown
 |__test_takelast.py__|take_last||
 |_test_takelastbuffer.py_|?||
 |_test_takelastwithtime.py_|?||
-|_test_takeuntil.py_|?||
+|__test_takeuntil.py__|take_until||
 |_test_takeuntilwithtime.py_|?||
 |_test_takewhile.py_|?||
 |__test_takewithtime.py__|take_with_time||
