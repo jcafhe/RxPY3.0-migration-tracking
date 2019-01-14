@@ -10,7 +10,7 @@ _file_: update status is unknown
 |:-- |:---       |:----  |
 |__test_all.py__|all||
 |__test_amb.py__|amb||
-|_test_asobservable.py_|?||
+|__test_asobservable.py__|as_observable||
 |__test_average.py__|average||
 |_test_buffer.py_|?||
 |_test_buffercount.py_|?||
@@ -21,7 +21,7 @@ _file_: update status is unknown
 |__test_catch.py__|catch_exception||
 |__test_combinelatest.py__|combine_latest||
 |__test_concat.py__|concat||
-|_test_connectableobservable.py_|?||
+|__test_connectableobservable.py__|connectableobservable.connect||
 |__test_contains.py__|contains||
 |__test_count.py__|count||
 |__test_create.py__|create||
@@ -73,8 +73,6 @@ _file_: update status is unknown
 |_test_onerrorresumenext.py_|?||
 |__test_pairwise.py__|pairwise||
 |_test_partition.py_|?||
-|_test_pausable.py_|?||
-|_test_pausablebuffered.py_|?||
 |_test_pluck.py_|?||
 |_test_publish.py_|?||
 |_test_publishvalue.py_|?||
@@ -100,7 +98,6 @@ _file_: update status is unknown
 |__test_some.py__|some||
 |test_start.py|start|redirection to *py3_start.py*, should content in *py3_start.py* replace *test_start.py*?|
 |__test_startwith.py__|start_with|test *test_start_with_scheduler* is commented.|
-|_test_stopandwait.py_|?||
 |_test_subscribeon.py_|?||
 |__test_sum.py__|sum||
 |__test_switch.py__|switch_latest|Should it be renamed to *test_switch_latest.py*?|
