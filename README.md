@@ -19,17 +19,17 @@ _file_: update status is unknown
 |_test_bufferwithtimeorcount.py_|?||
 |__test_case.py__|case||
 |__test_catch.py__|catch_exception||
-|test_combinelatest.py|combine_latest||
-|test_concat.py|concat||
+|__test_combinelatest.py__|combine_latest||
+|__test_concat.py__|concat||
 |_test_connectableobservable.py_|?||
 |__test_contains.py__|contains||
 |__test_count.py__|count||
 |__test_create.py__|create||
-|__test_debounce.py__|debounce throttle_with_mapper||
+|__test_debounce.py__|debounce<br>throttle_with_mapper||
 |__test_defaultifempty.py__|default_if_empty||
-|test_defer.py|defer||
+|__test_defer.py__|defer||
 |__test_delay.py__|delay||
-|__test_delaywithmapper.py__|delay_with_mapper||
+|_test_delaywithselector.py_|?||
 |_test_distinct.py_|?||
 |__test_distinctuntilchanged.py__|distinct_until_changed||
 |__test_doaction.py__|do_action||
@@ -37,33 +37,33 @@ _file_: update status is unknown
 |_test_elementat.py_|?||
 |__test_empty.py__|empty||
 |_test_expand.py_|?||
-|__test_filter.py__|filter filteri||
+|__test_filter.py__|filter<br>filteri||
 |_test_finally.py_|?||
 |_test_find.py_|?||
 |_test_first.py_|?||
 |_test_firstordefault.py_|?||
-|__test_flatmap.py__|flat_map flat_mapi|need to remove tests with result_mapper|
+|__test_flatmap.py__|flat_map<br>flat_mapi|TODO: remove tests which use result_mapper argument.|
 |__test_forin.py__|for_in||
-|_test_fromcallback.py_|?|should be renamed to fromcallable ?|
-|test_fromfuture.py|from_future|redirection to py3_fromfuture.py|
-|test_fromiterable.py|from_ from_list|from_ becomes from with new API|
+|_test_fromcallback.py_|?|Is rx.from_callable() equivalent to the old Observable.from_callback()?|
+|test_fromfuture.py|from_future|redirection to *py3_fromfuture.py*, should content in *py3_fromfuture.py* replace *test_fromfuture.py*?|
+|__test_fromiterable.py__|from_<br>from_list||
 |__test_generate.py__|generate||
 |_test_generatewithrelativetime.py_|?||
 |_test_groupby.py_|?||
 |_test_groupjoin.py_|?||
 |_test_ifthen.py_|?||
 |_test_ignoreelements.py_|?||
-|test_interval.py|interval|tests 'test_interval_timespan_zero' and 'test_interval_timespan_negative' are commented|
+|__test_interval.py__|interval|tests *test_interval_timespan_zero* and *test_interval_timespan_negative* are commented.|
 |_test_isempty.py_|?||
 |_test_join.py_|?||
 |__test_last.py__|last||
 |__test_lastordefault.py__|last_or_default||
 |_test_manyselect.py_|?||
-|__test_map.py__|map mapi||
-|__test_materialize.py__|dematerialize materialize||
+|__test_map.py__|map<br>mapi||
+|__test_materialize.py__|dematerialize<br>materialize||
 |__test_max.py__|max||
-|__test_maxby.py__|max_by|some tests are commented (mixed with JS code), these are not missing for test_minby|
-|test_merge.py|merge|merge is merge_all now ?|
+|__test_maxby.py__|max_by|some tests are commented (mixed with JS code), these are not missing for *test_minby.py*.|
+|test_merge.py|merge|Is merge_all() equivalent to the old Observable.merge()?|
 |__test_min.py__|min||
 |__test_minby.py__|min_by||
 |_test_multicast.py_|?||
@@ -78,7 +78,7 @@ _file_: update status is unknown
 |_test_pluck.py_|?||
 |_test_publish.py_|?||
 |_test_publishvalue.py_|?||
-|_test_range.py_|?|Missing an alias for rx.range = rx.from_range ?|
+|_test_range.py_|?|Is rx.from_range() equivalent to the old Observable.range()?|
 |__test_reduce.py__|reduce||
 |_test_repeat.py_|?||
 |_test_replay.py_|?||
@@ -96,29 +96,29 @@ _file_: update status is unknown
 |_test_skipuntilwithtime.py_|?||
 |_test_skipwhile.py_|?||
 |_test_skipwithtime.py_|?||
-|test_slice.py|slice|Should python slice [:] should be supported ?|
+|test_slice.py|slice|should python slice observable[:] be supported?|
 |__test_some.py__|some||
-|test_start.py|start|redirection to test_py3_start.py|
-|__test_startwith.py__|start_with|test 'test_start_with_scheduler' is commented|
+|test_start.py|start|redirection to *py3_start.py*, should content in *py3_start.py* replace *test_start.py*?|
+|__test_startwith.py__|start_with|test *test_start_with_scheduler* is commented.|
 |_test_stopandwait.py_|?||
 |_test_subscribeon.py_|?||
 |__test_sum.py__|sums||
 |__test_switch.py__|switch_latest||
-|test_take.py|take||
-|test_takelast.py|take_last||
+|__test_take.py__|take||
+|__test_takelast.py__|take_last||
 |_test_takelastbuffer.py_|?||
 |_test_takelastwithtime.py_|?||
 |_test_takeuntil.py_|?||
 |_test_takeuntilwithtime.py_|?||
 |_test_takewhile.py_|?||
-|test_takewithtime.py|take_with_time||
-|test_throttlefirst.py|throttle_first||
+|__test_takewithtime.py__|take_with_time||
+|__test_throttlefirst.py__|throttle_first||
 |__test_throw.py__|throw||
 |_test_timeinterval.py_|?||
 |_test_timeout.py_|?||
 |_test_timeoutwithselector.py_|?||
-|test_timer.py|timer||
-|__test_timestamp.py__|time_interval timestamp||
+|__test_timer.py__|timer||
+|__test_timestamp.py__|time_interval<br>timestamp||
 |_test_toasync.py_|?||
 |_test_todict.py_|?||
 |_test_tofuture.py_|?||

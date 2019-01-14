@@ -2,7 +2,6 @@
 
 import os.path as osp
 import glob
-from functools import reduce
 
 
 def format_test_filename(fname):
@@ -25,10 +24,16 @@ def read_conf_file(fpath):
     """
     with open(fpath, 'rt') as f:
         rawlines = f.readlines()
-        lines = [l.strip() for l in rawlines]
-        lines = [l for l in lines if l != '']
-        lines = [l for l in lines if l[0] != '#']
+#        lines = [l.strip() for l in rawlines]
+#        lines = [l for l in lines if l != '']
+#        lines = [l for l in lines if l[0] != '#']
 
+    return clean_conf_lines(rawlines)
+
+def clean_conf_lines(rawlines):
+    lines = [l.strip() for l in rawlines]
+    lines = [l for l in lines if l != '']
+    lines = [l for l in lines if l[0] != '#']
     return lines
 
 
@@ -94,7 +99,7 @@ def compile_to_markdown_table(fnames, updates, comments):
     for fname in fnames:
         try:
             ops = updates[fname]['operators']
-            ops = reduce(lambda x, y: x + ' ' + y, ops, '')
+            ops = '<br>'.join(ops)
             ops = ops.strip()
         except KeyError:
             ops = '?'
@@ -133,13 +138,20 @@ if __name__ == '__main__':
 
     script_dir = osp.dirname(__file__)
     try:
-        with open(osp.join(script_dir, 'tests_directory.conf'), 'r') as f:
-            tests_path = f.read().strip()
-            tests_dir_needed = False
+        config_lines = read_conf_file(osp.join(script_dir, 'tests_directory.conf'))
+        tests_path = config_lines[0]
+        tests_dir_needed = False
+
     except FileNotFoundError:
         with open(osp.join(script_dir, 'tests_directory.conf'), 'w') as f:
+            f.write('# absolute path to operators tests.\n')
             pass
         tests_dir_needed = True
+        print('IMPORTANT: file {} have been created. Please Specify '
+              'the path to the operators tests path.'.format(
+                     osp.join(script_dir, 'tests_directory.conf'))
+              )
+
 
     if not tests_dir_needed:
         tests_path = osp.expanduser(tests_path)
