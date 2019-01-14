@@ -46,7 +46,7 @@ _file_: update status is unknown
 |__test_forin.py__|for_in||
 |_test_fromcallback.py_|?|Is rx.from_callable() equivalent to the old Observable.from_callback()?|
 |test_fromfuture.py|from_future|redirection to *py3_fromfuture.py*, should content in *py3_fromfuture.py* replace *test_fromfuture.py*?|
-|__test_fromiterable.py__|from_<br>from_list||
+|__test_fromiterable.py__|from_||
 |__test_generate.py__|generate||
 |_test_generatewithrelativetime.py_|?||
 |_test_groupby.py_|?||
@@ -102,7 +102,7 @@ _file_: update status is unknown
 |__test_startwith.py__|start_with|test *test_start_with_scheduler* is commented.|
 |_test_stopandwait.py_|?||
 |_test_subscribeon.py_|?||
-|__test_sum.py__|sums||
+|__test_sum.py__|sum||
 |__test_switch.py__|switch_latest||
 |__test_take.py__|take||
 |__test_takelast.py__|take_last||
