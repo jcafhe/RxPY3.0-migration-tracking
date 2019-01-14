@@ -63,7 +63,7 @@ _file_: update status is unknown
 |__test_materialize.py__|dematerialize<br>materialize||
 |__test_max.py__|max||
 |__test_maxby.py__|max_by|some tests are commented (mixed with JS code), these are not missing for *test_minby.py*.|
-|test_merge.py|merge||
+|test_merge.py|merge<br>merge_all||
 |__test_min.py__|min||
 |__test_minby.py__|min_by||
 |_test_multicast.py_|?||
