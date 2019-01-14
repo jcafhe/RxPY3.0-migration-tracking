@@ -29,7 +29,7 @@ _file_: update status is unknown
 |__test_defaultifempty.py__|default_if_empty||
 |__test_defer.py__|defer||
 |__test_delay.py__|delay||
-|_test_delaywithselector.py_|?||
+|__test_delaywithmapper.py__|delay_with_mapper||
 |_test_distinct.py_|?||
 |__test_distinctuntilchanged.py__|distinct_until_changed||
 |__test_doaction.py__|do_action||
@@ -63,7 +63,7 @@ _file_: update status is unknown
 |__test_materialize.py__|dematerialize<br>materialize||
 |__test_max.py__|max||
 |__test_maxby.py__|max_by|some tests are commented (mixed with JS code), these are not missing for *test_minby.py*.|
-|test_merge.py|merge|Is merge_all() equivalent to the old Observable.merge()?|
+|test_merge.py|merge||
 |__test_min.py__|min||
 |__test_minby.py__|min_by||
 |_test_multicast.py_|?||
@@ -103,7 +103,7 @@ _file_: update status is unknown
 |_test_stopandwait.py_|?||
 |_test_subscribeon.py_|?||
 |__test_sum.py__|sum||
-|__test_switch.py__|switch_latest||
+|__test_switch.py__|switch_latest|Should it be renamed to *test_switch_latest.py*?|
 |__test_take.py__|take||
 |__test_takelast.py__|take_last||
 |_test_takelastbuffer.py_|?||
