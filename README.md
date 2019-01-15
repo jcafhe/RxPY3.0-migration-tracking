@@ -54,7 +54,7 @@ _file_: update status is unknown
 |_test_ifthen.py_|?||
 |_test_ignoreelements.py_|?||
 |__test_interval.py__|interval|tests *test_interval_timespan_zero* and *test_interval_timespan_negative* are commented.|
-|_test_isempty.py_|?||
+|__test_isempty.py__|is_empty||
 |_test_join.py_|?||
 |__test_last.py__|last||
 |__test_lastordefault.py__|last_or_default||
@@ -90,7 +90,7 @@ _file_: update status is unknown
 |__test_skip.py__|skip||
 |__test_skiplast.py__|skip_last||
 |test_skiplastwithtime.py|||
-|test_skipuntil.py|||
+|__test_skipuntil.py__|skip_until||
 |test_skipuntilwithtime.py|||
 |test_skipwhile.py|||
 |test_skipwithtime.py|||
@@ -112,7 +112,7 @@ _file_: update status is unknown
 |__test_throttlefirst.py__|throttle_first||
 |__test_throw.py__|throw||
 |test_timeinterval.py|time_interval||
-|_test_timeout.py_|?||
+|__test_timeout.py__|timeout||
 |_test_timeoutwithselector.py_|?||
 |__test_timer.py__|timer||
 |__test_timestamp.py__|time_interval<br>timestamp|TODO: the tests regarding time_interval() operator are already in *test_timeinterval.py*. Wrong copy/paste? Replace ops.time_interval to ops.timestamp.|
