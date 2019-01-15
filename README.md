@@ -12,9 +12,9 @@ _file_: update status is unknown
 |__test_amb.py__|amb||
 |__test_asobservable.py__|as_observable||
 |__test_average.py__|average||
-|_test_buffer.py_|?||
+|__test_buffer.py__|buffer||
 |_test_buffercount.py_|?||
-|_test_bufferwithcount.py_|?||
+|__test_bufferwithcount.py__|buffer_with_count||
 |_test_bufferwithtime.py_|?||
 |_test_bufferwithtimeorcount.py_|?||
 |__test_case.py__|case||
@@ -120,13 +120,13 @@ _file_: update status is unknown
 |_test_todict.py_|?||
 |_test_tofuture.py_|?||
 |_test_tofuture_no_py2.py_|?||
-|_test_toiterable.py_|?||
+|__test_toiterable.py__|to_iterable||
 |_test_toset.py_|?||
 |__test_using.py__|using||
 |_test_when.py_|?||
 |_test_while.py_|?||
 |__test_window.py__|window||
-|_test_windowwithcount.py_|?||
+|__test_windowwithcount.py__|window_with_count||
 |_test_windowwithtime.py_|?||
 |_test_windowwithtimeorcount.py_|?||
 |_test_withlatestfrom.py_|?||
