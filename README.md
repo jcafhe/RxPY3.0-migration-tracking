@@ -76,9 +76,9 @@ _file_: update status is unknown
 |_test_pluck.py_|?||
 |__test_publish.py__|publish||
 |_test_publishvalue.py_|?||
-|_test_range.py_|?|Is rx.from_range() equivalent to the old Observable.range()?|
+|__test_range.py__|range||
 |__test_reduce.py__|reduce||
-|_test_repeat.py_|?||
+|__test_repeat.py__|repeat||
 |__test_replay.py__|replay|some tests are commented.|
 |_test_retry.py_|?||
 |__test_returnvalue.py__|return_value||
