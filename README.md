@@ -66,7 +66,7 @@ _file_: update status is unknown
 |test_merge.py|merge<br>merge_all||
 |__test_min.py__|min||
 |__test_minby.py__|min_by||
-|_test_multicast.py_|?||
+|__test_multicast.py__|multicast||
 |__test_never.py__|never||
 |_test_observeon.py_|?||
 |__test_of.py__|of||
@@ -81,12 +81,12 @@ _file_: update status is unknown
 |_test_repeat.py_|?||
 |_test_replay.py_|?||
 |_test_retry.py_|?||
-|test_returnvalue.py|return_value||
+|__test_returnvalue.py__|return_value||
 |_test_sample.py_|?||
 |__test_scan.py__|scan||
 |_test_sequenceequal.py_|?||
-|_test_single.py_|?||
-|_test_singleordefault.py_|?||
+|__test_single.py__|single||
+|__test_singleordefault.py__|single_or_default<br>single_or_default_async||
 |__test_skip.py__|skip||
 |__test_skiplast.py__|skip_last||
 |_test_skiplastwithtime.py_|?||
@@ -94,7 +94,7 @@ _file_: update status is unknown
 |_test_skipuntilwithtime.py_|?||
 |_test_skipwhile.py_|?||
 |_test_skipwithtime.py_|?||
-|test_slice.py|slice|should python slice observable[:] be supported?|
+|__test_slice.py__  |slice|should python slice observable[:] be supported?|
 |__test_some.py__|some||
 |test_start.py|start|redirection to *py3_start.py*, should content in *py3_start.py* replace *test_start.py*?|
 |__test_startwith.py__|start_with|test *test_start_with_scheduler* is commented.|
