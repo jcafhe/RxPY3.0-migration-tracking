@@ -49,13 +49,13 @@ _file_: update status is unknown
 |__test_fromiterable.py__|from_||
 |__test_generate.py__|generate||
 |_test_generatewithrelativetime.py_|?||
-|_test_groupby.py_|?||
+|__test_groupby.py__|group_by||
 |_test_groupjoin.py_|?||
 |_test_ifthen.py_|?||
 |_test_ignoreelements.py_|?||
 |__test_interval.py__|interval|tests *test_interval_timespan_zero* and *test_interval_timespan_negative* are commented.|
 |__test_isempty.py__|is_empty||
-|_test_join.py_|?||
+|__test_join.py__|join||
 |__test_last.py__|last||
 |__test_lastordefault.py__|last_or_default||
 |_test_manyselect.py_|?||
@@ -63,7 +63,7 @@ _file_: update status is unknown
 |__test_materialize.py__|dematerialize<br>materialize||
 |__test_max.py__|max||
 |__test_maxby.py__|max_by|some tests are commented (mixed with JS code), these are not missing for *test_minby.py*.|
-|test_merge.py|merge<br>merge_all||
+|__test_merge.py__|merge<br>merge_all||
 |__test_min.py__|min||
 |__test_minby.py__|min_by||
 |__test_multicast.py__|multicast||
@@ -73,14 +73,14 @@ _file_: update status is unknown
 |_test_onerrorresumenext.py_|?||
 |__test_pairwise.py__|pairwise||
 |_test_partition.py_|?||
-|_test_pluck.py_|?||
+|__test_pluck.py__|pluck<br>pluck_attr||
 |__test_publish.py__|publish||
 |_test_publishvalue.py_|?||
 |__test_range.py__|range||
 |__test_reduce.py__|reduce||
 |__test_repeat.py__|repeat||
 |__test_replay.py__|replay|some tests are commented.|
-|_test_retry.py_|?||
+|__test_retry.py__|retry||
 |__test_returnvalue.py__|return_value||
 |_test_sample.py_|?||
 |__test_scan.py__|scan||
@@ -111,7 +111,7 @@ _file_: update status is unknown
 |__test_takewithtime.py__|take_with_time||
 |__test_throttlefirst.py__|throttle_first||
 |__test_throw.py__|throw||
-|test_timeinterval.py|time_interval||
+|__test_timeinterval.py__|time_interval||
 |__test_timeout.py__|timeout||
 |_test_timeoutwithselector.py_|?||
 |__test_timer.py__|timer||
