@@ -79,7 +79,7 @@ _file_: update status is unknown
 |_test_range.py_|?|Is rx.from_range() equivalent to the old Observable.range()?|
 |__test_reduce.py__|reduce||
 |_test_repeat.py_|?||
-|_test_replay.py_|?||
+|__test_replay.py__|replay|some tests are commented.|
 |_test_retry.py_|?||
 |__test_returnvalue.py__|return_value||
 |_test_sample.py_|?||
@@ -89,14 +89,14 @@ _file_: update status is unknown
 |__test_singleordefault.py__|single_or_default<br>single_or_default_async||
 |__test_skip.py__|skip||
 |__test_skiplast.py__|skip_last||
-|_test_skiplastwithtime.py_|?||
-|_test_skipuntil.py_|?||
-|_test_skipuntilwithtime.py_|?||
-|_test_skipwhile.py_|?||
-|_test_skipwithtime.py_|?||
-|__test_slice.py__  |slice|should python slice observable[:] be supported?|
+|test_skiplastwithtime.py|||
+|test_skipuntil.py|||
+|test_skipuntilwithtime.py|||
+|test_skipwhile.py|||
+|test_skipwithtime.py|||
+|__test_slice.py__|slice||
 |__test_some.py__|some||
-|test_start.py|start|redirection to *py3_start.py*, should content in *py3_start.py* replace *test_start.py*?|
+|__test_start.py__|start||
 |__test_startwith.py__|start_with|test *test_start_with_scheduler* is commented.|
 |_test_subscribeon.py_|?||
 |__test_sum.py__|sum||
