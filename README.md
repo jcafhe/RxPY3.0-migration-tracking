@@ -111,11 +111,11 @@ _file_: update status is unknown
 |__test_takewithtime.py__|take_with_time||
 |__test_throttlefirst.py__|throttle_first||
 |__test_throw.py__|throw||
-|_test_timeinterval.py_|?||
+|test_timeinterval.py|time_interval||
 |_test_timeout.py_|?||
 |_test_timeoutwithselector.py_|?||
 |__test_timer.py__|timer||
-|__test_timestamp.py__|time_interval<br>timestamp||
+|__test_timestamp.py__|time_interval<br>timestamp|TODO: the tests regarding time_interval() operator are already in *test_timeinterval.py*. Wrong copy/paste? Replace ops.time_interval to ops.timestamp.|
 |_test_toasync.py_|?||
 |_test_todict.py_|?||
 |_test_tofuture.py_|?||
