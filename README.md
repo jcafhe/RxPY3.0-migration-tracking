@@ -112,7 +112,7 @@ _file_: update status is unknown
 |__test_throw.py__|throw||
 |__test_timeinterval.py__|time_interval||
 |__test_timeout.py__|timeout||
-|_test_timeoutwithselector.py_|?||
+|__test_timeoutwithmapper.py__|timeout_with_mapper||
 |__test_timer.py__|timer||
 |__test_timestamp.py__|timestamp||
 |_test_toasync.py_|?||
