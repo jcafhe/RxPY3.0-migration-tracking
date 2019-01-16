@@ -37,20 +37,20 @@ _file_: update status is unknown
 |__test_empty.py__|empty||
 |_test_expand.py_|?||
 |__test_filter.py__|filter<br>filteri||
-|_test_finally.py_|?||
+|__test_finally.py__|finally_action||
 |_test_find.py_|?||
 |__test_first.py__|first||
 |__test_firstordefault.py__|first_or_default||
 |__test_flatmap.py__|flat_map<br>flat_mapi|TODO: remove tests which use result_mapper argument.|
 |__test_forin.py__|for_in||
-|_test_fromcallback.py_|?||
+|__test_fromcallback.py__|from_callback||
 |test_fromfuture.py|from_future||
 |__test_fromiterable.py__|from_||
 |__test_generate.py__|generate||
-|_test_generatewithrelativetime.py_|?||
+|__test_generatewithrelativetime.py__|generate_with_relative_time||
 |__test_groupby.py__|group_by||
 |__test_groupjoin.py__|group_join||
-|_test_ifthen.py_|?||
+|__test_ifthen.py__|if_then||
 |_test_ignoreelements.py_|?||
 |__test_interval.py__|interval|tests *test_interval_timespan_zero* and *test_interval_timespan_negative* are commented.|
 |__test_isempty.py__|is_empty||
@@ -91,7 +91,7 @@ _file_: update status is unknown
 |__test_skiplastwithtime.py__|skip_last_with_time||
 |__test_skipuntil.py__|skip_until||
 |test_skipuntilwithtime.py|||
-|test_skipwhile.py|||
+|__test_skipwhile.py__|skip_while<br>skip_while_indexed||
 |test_skipwithtime.py|||
 |__test_slice.py__|slice||
 |__test_some.py__|some||
@@ -105,7 +105,7 @@ _file_: update status is unknown
 |_test_takelastbuffer.py_|?||
 |_test_takelastwithtime.py_|?||
 |__test_takeuntil.py__|take_until||
-|_test_takeuntilwithtime.py_|take_until_with_time||
+|__test_takeuntilwithtime.py__|take_until_with_time||
 |_test_takewhile.py_|?||
 |__test_takewithtime.py__|take_with_time||
 |__test_throttlefirst.py__|throttle_first||
