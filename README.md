@@ -33,7 +33,7 @@ _file_: update status is unknown
 |__test_distinctuntilchanged.py__|distinct_until_changed||
 |__test_doaction.py__|do_action||
 |_test_dowhile.py_|?||
-|_test_elementat.py_|?||
+|__test_elementat.py__|element_at<br>element_at_or_default||
 |__test_empty.py__|empty||
 |_test_expand.py_|?||
 |__test_filter.py__|filter<br>filteri||
@@ -71,7 +71,7 @@ _file_: update status is unknown
 |__test_of.py__|of||
 |_test_onerrorresumenext.py_|?||
 |__test_pairwise.py__|pairwise||
-|_test_partition.py_|?||
+|__test_partition.py__|partition||
 |__test_pluck.py__|pluck<br>pluck_attr||
 |__test_publish.py__|publish||
 |_test_publishvalue.py_|publish_value||
