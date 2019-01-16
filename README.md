@@ -44,8 +44,8 @@ _file_: update status is unknown
 |_test_firstordefault.py_|?||
 |__test_flatmap.py__|flat_map<br>flat_mapi|TODO: remove tests which use result_mapper argument.|
 |__test_forin.py__|for_in||
-|_test_fromcallback.py_|?|Is rx.from_callable() equivalent to the old Observable.from_callback()?|
-|test_fromfuture.py|from_future|redirection to *py3_fromfuture.py*, should content in *py3_fromfuture.py* replace *test_fromfuture.py*?|
+|_test_fromcallback.py_|?||
+|test_fromfuture.py|from_future||
 |__test_fromiterable.py__|from_||
 |__test_generate.py__|generate||
 |_test_generatewithrelativetime.py_|?||
@@ -75,7 +75,7 @@ _file_: update status is unknown
 |_test_partition.py_|?||
 |__test_pluck.py__|pluck<br>pluck_attr||
 |__test_publish.py__|publish||
-|_test_publishvalue.py_|?||
+|_test_publishvalue.py_|publish_value||
 |__test_range.py__|range||
 |__test_reduce.py__|reduce||
 |__test_repeat.py__|repeat||
