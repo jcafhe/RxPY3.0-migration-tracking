@@ -82,7 +82,7 @@ _file_: update status is unknown
 |__test_replay.py__|replay|some tests are commented.|
 |__test_retry.py__|retry||
 |__test_returnvalue.py__|return_value||
-|_test_sample.py_|?||
+|__test_sample.py__|sample||
 |__test_scan.py__|scan||
 |_test_sequenceequal.py_|?||
 |__test_single.py__|single||
@@ -106,7 +106,7 @@ _file_: update status is unknown
 |_test_takelastbuffer.py_|?||
 |_test_takelastwithtime.py_|?||
 |__test_takeuntil.py__|take_until||
-|_test_takeuntilwithtime.py_|?||
+|_test_takeuntilwithtime.py_|take_until_with_time||
 |_test_takewhile.py_|?||
 |__test_takewithtime.py__|take_with_time||
 |__test_throttlefirst.py__|throttle_first||
@@ -118,7 +118,7 @@ _file_: update status is unknown
 |__test_timestamp.py__|time_interval<br>timestamp|TODO: the tests regarding time_interval() operator are already in *test_timeinterval.py*. Wrong copy/paste? Replace ops.time_interval to ops.timestamp.|
 |_test_toasync.py_|?||
 |_test_todict.py_|?||
-|_test_tofuture.py_|?||
+|__test_tofuture.py__|-||
 |_test_tofuture_no_py2.py_|?||
 |__test_toiterable.py__|to_iterable||
 |_test_toset.py_|?||
@@ -127,7 +127,7 @@ _file_: update status is unknown
 |_test_while.py_|?||
 |__test_window.py__|window||
 |__test_windowwithcount.py__|window_with_count||
-|_test_windowwithtime.py_|?||
+|__test_windowwithtime.py__|window_with_time||
 |_test_windowwithtimeorcount.py_|?||
-|_test_withlatestfrom.py_|?||
+|__test_withlatestfrom.py__|with_latest_from||
 |__test_zip.py__|zip||
