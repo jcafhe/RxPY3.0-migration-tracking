@@ -114,7 +114,7 @@ _file_: update status is unknown
 |__test_timeout.py__|timeout||
 |_test_timeoutwithselector.py_|?||
 |__test_timer.py__|timer||
-|__test_timestamp.py__|time_interval<br>timestamp|TODO: the tests regarding time_interval() operator are already in *test_timeinterval.py*. Wrong copy/paste? Replace ops.time_interval to ops.timestamp.|
+|__test_timestamp.py__|timestamp||
 |_test_toasync.py_|?||
 |_test_todict.py_|?||
 |__test_tofuture.py__|-||
