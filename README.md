@@ -14,8 +14,8 @@ _file_: update status is unknown
 |__test_average.py__|average||
 |__test_buffer.py__|buffer||
 |__test_bufferwithcount.py__|buffer_with_count||
-|_test_bufferwithtime.py_|?||
-|_test_bufferwithtimeorcount.py_|?||
+|__test_bufferwithtime.py__|buffer_with_time||
+|__test_bufferwithtimeorcount.py__|buffer_with_time_or_count||
 |__test_case.py__|case||
 |__test_catch.py__|catch_exception||
 |__test_combinelatest.py__|combine_latest||
@@ -49,7 +49,7 @@ _file_: update status is unknown
 |__test_generate.py__|generate||
 |_test_generatewithrelativetime.py_|?||
 |__test_groupby.py__|group_by||
-|_test_groupjoin.py_|?||
+|__test_groupjoin.py__|group_join||
 |_test_ifthen.py_|?||
 |_test_ignoreelements.py_|?||
 |__test_interval.py__|interval|tests *test_interval_timespan_zero* and *test_interval_timespan_negative* are commented.|
@@ -127,6 +127,6 @@ _file_: update status is unknown
 |__test_window.py__|window||
 |__test_windowwithcount.py__|window_with_count||
 |__test_windowwithtime.py__|window_with_time||
-|_test_windowwithtimeorcount.py_|?||
+|__test_windowwithtimeorcount.py__|window_with_time_or_count||
 |__test_withlatestfrom.py__|with_latest_from||
 |__test_zip.py__|zip||
