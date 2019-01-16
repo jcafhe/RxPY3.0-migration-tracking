@@ -13,7 +13,6 @@ _file_: update status is unknown
 |__test_asobservable.py__|as_observable||
 |__test_average.py__|average||
 |__test_buffer.py__|buffer||
-|_test_buffercount.py_|?||
 |__test_bufferwithcount.py__|buffer_with_count||
 |_test_bufferwithtime.py_|?||
 |_test_bufferwithtimeorcount.py_|?||
@@ -68,7 +67,7 @@ _file_: update status is unknown
 |__test_minby.py__|min_by||
 |__test_multicast.py__|multicast||
 |__test_never.py__|never||
-|_test_observeon.py_|?||
+|__test_observeon.py__|?||
 |__test_of.py__|of||
 |_test_onerrorresumenext.py_|?||
 |__test_pairwise.py__|pairwise||
@@ -121,7 +120,7 @@ _file_: update status is unknown
 |__test_tofuture.py__|-||
 |_test_tofuture_no_py2.py_|?||
 |__test_toiterable.py__|to_iterable||
-|_test_toset.py_|?||
+|__test_toset.py__|to_set||
 |__test_using.py__|using||
 |_test_when.py_|?||
 |_test_while.py_|?||
