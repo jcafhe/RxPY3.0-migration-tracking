@@ -88,7 +88,7 @@ _file_: update status is unknown
 |__test_singleordefault.py__|single_or_default<br>single_or_default_async||
 |__test_skip.py__|skip||
 |__test_skiplast.py__|skip_last||
-|test_skiplastwithtime.py|||
+|__test_skiplastwithtime.py__|skip_last_with_time||
 |__test_skipuntil.py__|skip_until||
 |test_skipuntilwithtime.py|||
 |test_skipwhile.py|||
