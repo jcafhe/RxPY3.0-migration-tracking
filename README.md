@@ -39,8 +39,8 @@ _file_: update status is unknown
 |__test_filter.py__|filter<br>filteri||
 |_test_finally.py_|?||
 |_test_find.py_|?||
-|_test_first.py_|?||
-|_test_firstordefault.py_|?||
+|__test_first.py__|first||
+|__test_firstordefault.py__|first_or_default||
 |__test_flatmap.py__|flat_map<br>flat_mapi|TODO: remove tests which use result_mapper argument.|
 |__test_forin.py__|for_in||
 |_test_fromcallback.py_|?||
@@ -67,7 +67,7 @@ _file_: update status is unknown
 |__test_minby.py__|min_by||
 |__test_multicast.py__|multicast||
 |__test_never.py__|never||
-|__test_observeon.py__|?||
+|__test_observeon.py__|observe_on||
 |__test_of.py__|of||
 |_test_onerrorresumenext.py_|?||
 |__test_pairwise.py__|pairwise||
