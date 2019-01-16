@@ -97,7 +97,7 @@ _file_: update status is unknown
 |__test_some.py__|some||
 |__test_start.py__|start||
 |__test_startwith.py__|start_with|test *test_start_with_scheduler* is commented.|
-|_test_subscribeon.py_|?||
+|__test_subscribeon.py__|subscribe_on||
 |__test_sum.py__|sum||
 |__test_switch.py__|switch_latest|Should it be renamed to *test_switch_latest.py*?|
 |__test_take.py__|take||
