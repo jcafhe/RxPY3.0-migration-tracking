@@ -83,7 +83,7 @@ _file_: update status is unknown
 |__test_returnvalue.py__|return_value||
 |__test_sample.py__|sample||
 |__test_scan.py__|scan||
-|_test_sequenceequal.py_|?||
+|__test_sequenceequal.py__|sequence_equal||
 |__test_single.py__|single||
 |__test_singleordefault.py__|single_or_default<br>single_or_default_async||
 |__test_skip.py__|skip||
