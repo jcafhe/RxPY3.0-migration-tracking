@@ -29,7 +29,7 @@ _file_: update status is unknown
 |__test_defer.py__|defer||
 |__test_delay.py__|delay||
 |__test_delaywithmapper.py__|delay_with_mapper||
-|_test_distinct.py_|?||
+|__test_distinct.py__|distinct||
 |__test_distinctuntilchanged.py__|distinct_until_changed||
 |__test_doaction.py__|do_action||
 |_test_dowhile.py_|?||
@@ -38,13 +38,13 @@ _file_: update status is unknown
 |_test_expand.py_|?||
 |__test_filter.py__|filter<br>filteri||
 |__test_finally.py__|finally_action||
-|_test_find.py_|?||
+|__test_find.py__|find<br>find_index||
 |__test_first.py__|first||
 |__test_firstordefault.py__|first_or_default||
 |__test_flatmap.py__|flat_map<br>flat_mapi|TODO: remove tests which use result_mapper argument.|
 |__test_forin.py__|for_in||
 |__test_fromcallback.py__|from_callback||
-|test_fromfuture.py|from_future||
+|__test_fromfuture.py__|from_future||
 |__test_fromiterable.py__|from_||
 |__test_generate.py__|generate||
 |__test_generatewithrelativetime.py__|generate_with_relative_time||
