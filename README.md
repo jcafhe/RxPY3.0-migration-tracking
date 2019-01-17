@@ -32,7 +32,7 @@ _file_: update status is unknown
 |__test_distinct.py__|distinct||
 |__test_distinctuntilchanged.py__|distinct_until_changed||
 |__test_doaction.py__|do_action||
-|_test_dowhile.py_|?||
+|__test_dowhile.py__|do_while||
 |__test_elementat.py__|element_at<br>element_at_or_default||
 |__test_empty.py__|empty||
 |_test_expand.py_|?||
@@ -123,7 +123,7 @@ _file_: update status is unknown
 |__test_toset.py__|to_set||
 |__test_using.py__|using||
 |_test_when.py_|?||
-|_test_while.py_|?||
+|__test_whiledo.py__|while_do||
 |__test_window.py__|window||
 |__test_windowwithcount.py__|window_with_count||
 |__test_windowwithtime.py__|window_with_time||
