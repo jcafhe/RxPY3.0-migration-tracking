@@ -116,9 +116,8 @@ _file_: update status is unknown
 |__test_timer.py__|timer||
 |__test_timestamp.py__|timestamp||
 |_test_toasync.py_|?||
-|_test_todict.py_|?||
+|__test_todict.py__|to_dict||
 |__test_tofuture.py__|-||
-|_test_tofuture_no_py2.py_|?||
 |__test_toiterable.py__|to_iterable||
 |__test_toset.py__|to_set||
 |__test_using.py__|using||
