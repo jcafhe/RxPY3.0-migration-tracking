@@ -35,7 +35,7 @@ _file_: update status is unknown
 |__test_dowhile.py__|do_while||
 |__test_elementat.py__|element_at<br>element_at_or_default||
 |__test_empty.py__|empty||
-|_test_expand.py_|?||
+|__test_expand.py__|expand||
 |__test_filter.py__|filter<br>filteri||
 |__test_finally.py__|finally_action||
 |__test_find.py__|find<br>find_index||
@@ -51,7 +51,7 @@ _file_: update status is unknown
 |__test_groupby.py__|group_by||
 |__test_groupjoin.py__|group_join||
 |__test_ifthen.py__|if_then||
-|_test_ignoreelements.py_|?||
+|__test_ignoreelements.py__|ignore_elements||
 |__test_interval.py__|interval|tests *test_interval_timespan_zero* and *test_interval_timespan_negative* are commented.|
 |__test_isempty.py__|is_empty||
 |__test_join.py__|join||
@@ -90,9 +90,9 @@ _file_: update status is unknown
 |__test_skiplast.py__|skip_last||
 |__test_skiplastwithtime.py__|skip_last_with_time||
 |__test_skipuntil.py__|skip_until||
-|test_skipuntilwithtime.py|||
+|__test_skipuntilwithtime.py__|skip_until_with_time||
 |__test_skipwhile.py__|skip_while<br>skip_while_indexed||
-|test_skipwithtime.py|||
+|__test_skipwithtime.py__|skip_with_time||
 |__test_slice.py__|slice||
 |__test_some.py__|some||
 |__test_start.py__|start||
@@ -102,8 +102,8 @@ _file_: update status is unknown
 |__test_switch.py__|switch_latest|Should it be renamed to *test_switch_latest.py*?|
 |__test_take.py__|take||
 |__test_takelast.py__|take_last||
-|_test_takelastbuffer.py_|?||
-|_test_takelastwithtime.py_|?||
+|__test_takelastbuffer.py__|take_last_buffer||
+|__test_takelastwithtime.py__|take_last_with_time||
 |__test_takeuntil.py__|take_until||
 |__test_takeuntilwithtime.py__|take_until_with_time||
 |_test_takewhile.py_|?||
