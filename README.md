@@ -41,7 +41,7 @@ _file_: update status is unknown
 |__test_find.py__|find<br>find_index||
 |__test_first.py__|first||
 |__test_firstordefault.py__|first_or_default||
-|__test_flatmap.py__|flat_map<br>flat_mapi|TODO: remove tests which use result_mapper argument.|
+|__test_flatmap.py__|flat_map<br>flat_mapi||
 |__test_forin.py__|for_in||
 |__test_fromcallback.py__|from_callback||
 |__test_fromfuture.py__|from_future||
@@ -106,7 +106,7 @@ _file_: update status is unknown
 |__test_takelastwithtime.py__|take_last_with_time||
 |__test_takeuntil.py__|take_until||
 |__test_takeuntilwithtime.py__|take_until_with_time||
-|_test_takewhile.py_|?||
+|__test_takewhile.py__|?||
 |__test_takewithtime.py__|take_with_time||
 |__test_throttlefirst.py__|throttle_first||
 |__test_throw.py__|throw||
