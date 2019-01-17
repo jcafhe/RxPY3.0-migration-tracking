@@ -69,7 +69,7 @@ _file_: update status is unknown
 |__test_never.py__|never||
 |__test_observeon.py__|observe_on||
 |__test_of.py__|of||
-|_test_onerrorresumenext.py_|?||
+|__test_onerrorresumenext.py__|onerrorresumenext||
 |__test_pairwise.py__|pairwise||
 |__test_partition.py__|partition||
 |__test_pluck.py__|pluck<br>pluck_attr||
