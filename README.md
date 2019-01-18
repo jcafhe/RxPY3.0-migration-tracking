@@ -57,7 +57,7 @@ _file_: update status is unknown
 |__test_join.py__|join||
 |__test_last.py__|last||
 |__test_lastordefault.py__|last_or_default||
-|_test_manyselect.py_|?||
+|_test_manyselect.py_|?|deleted|
 |__test_map.py__|map<br>mapi||
 |__test_materialize.py__|dematerialize<br>materialize||
 |__test_max.py__|max||
@@ -74,7 +74,7 @@ _file_: update status is unknown
 |__test_partition.py__|partition||
 |__test_pluck.py__|pluck<br>pluck_attr||
 |__test_publish.py__|publish||
-|_test_publishvalue.py_|publish_value||
+|__test_publishvalue.py__|publish_value||
 |__test_range.py__|range||
 |__test_reduce.py__|reduce||
 |__test_repeat.py__|repeat||
@@ -99,7 +99,7 @@ _file_: update status is unknown
 |__test_startwith.py__|start_with|test *test_start_with_scheduler* is commented.|
 |__test_subscribeon.py__|subscribe_on||
 |__test_sum.py__|sum||
-|__test_switch.py__|switch_latest|Should it be renamed to *test_switch_latest.py*?|
+|__test_switchlatest.py__|switch_latest||
 |__test_take.py__|take||
 |__test_takelast.py__|take_last||
 |__test_takelastbuffer.py__|take_last_buffer||
