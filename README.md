@@ -115,13 +115,12 @@ _file_: update status is unknown
 |__test_timeoutwithmapper.py__|timeout_with_mapper||
 |__test_timer.py__|timer||
 |__test_timestamp.py__|timestamp||
-|_test_toasync.py_|?||
+|__test_toasync.py__|to_async||
 |__test_todict.py__|to_dict||
 |__test_tofuture.py__|-||
 |__test_toiterable.py__|to_iterable||
 |__test_toset.py__|to_set||
 |__test_using.py__|using||
-|_test_when.py_|?||
 |__test_whiledo.py__|while_do||
 |__test_window.py__|window||
 |__test_windowwithcount.py__|window_with_count||
