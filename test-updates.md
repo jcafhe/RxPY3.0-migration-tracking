@@ -1,5 +1,8 @@
 # Update status for tests/test_observable/
 
+**EDIT**: All tests have been updated.
+
+
 __file__: file have been updated
 
 file: file is confirmed to not be updated
