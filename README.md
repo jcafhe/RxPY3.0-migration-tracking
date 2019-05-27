@@ -13,3 +13,4 @@
   - `sample(sampler: Observable)`
   - `sample_time(interval: RelativeTime)`
   
+- [ ] `catch`: should be polymorphic i.e. accept an Observable or a callable `catch(handler: Union[Observable, Callable[Exception, Observable], Observable])]` 
